@@ -1,0 +1,1 @@
+var getVideoId = document.getElementsByTagName("img")[2].src; VideoId = getVideoId.split(/[/]/)[9]; var URLpath = "https://playapi.mtgx.tv/v3/videos/stream-links/"+VideoId+"?device=web"; alert("Goto URL: " + URLpath); window.location.assign(URLpath);
